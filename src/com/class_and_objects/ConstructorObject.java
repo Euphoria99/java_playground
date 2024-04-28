@@ -7,15 +7,15 @@ public class ConstructorObject {
 
     public static void main(String[] args) {
 
-       Student pavan = new Student();
-//       Student pavan = new Student(17,"Euphoria new", 90.1f);
+//       Student pavan = new Student();
+       Student pavan = new Student(17,"Euphoria new", 90.1f);
 
-       pavan.changeName("Euphoria");
-       pavan.greeting();
+//       pavan.changeName("Euphoria");
+//       pavan.greeting();
 
-//        System.out.println(pavan.rno);
-//        System.out.println(pavan.name);
-//        System.out.println(pavan.marks);
+        System.out.println(pavan.rno);
+        System.out.println(pavan.name);
+        System.out.println(pavan.marks);
     }
 }
 
