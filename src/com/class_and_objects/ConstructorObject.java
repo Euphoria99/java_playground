@@ -1,7 +1,7 @@
 package com.class_and_objects;
 
 //4
-// things covered: creating constructor, this keyword, object creation
+// things covered: creating constructor, this keyword, object creation, memory allocation
 
 public class ConstructorObject {
 
@@ -19,6 +19,12 @@ public class ConstructorObject {
 
         Student random = new Student(pavan);
         System.out.println("random name " + random.name);
+
+        //Memory Allocation of "new" keyword
+        Student one = new Student();
+        Student two = one;
+        one.name = "alice";
+        System.out.println("name in second obj: " + two.name);
     }
 }
 
